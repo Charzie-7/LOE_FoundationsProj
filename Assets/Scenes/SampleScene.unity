@@ -282,9 +282,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 161103610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c648d66c0568f034c97837546b78f076, type: 3}
+  m_Script: {fileID: 11500000, guid: 21ed70cf03c64184e94c785b6015ab28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myscript
+  gameObjectToDestroy: {fileID: 410087039}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +620,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 330585546}
-  - {fileID: 410087041}
   - {fileID: 3496544240533618939}
+  - {fileID: 410087041}
   - {fileID: 161103615}
