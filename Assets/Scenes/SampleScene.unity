@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 161103613}
   - component: {fileID: 161103612}
   - component: {fileID: 161103611}
+  - component: {fileID: 161103616}
+  - component: {fileID: 161103617}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -253,12 +255,36 @@ Transform:
   m_GameObject: {fileID: 161103610}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 2.98, z: -3.91}
+  m_LocalPosition: {x: -3.8, y: 2.98, z: -3.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &161103616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161103610}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05824bed111b7b428b9f1fbff00cac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!114 &161103617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161103610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c648d66c0568f034c97837546b78f076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myscript
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,12 +566,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 99ae1920b13da744ba0df31049eabc68, type: 2}
     - target: {fileID: 7604791512624369907, guid: f01c6f6823f094e4ea3d9ab0c846deef, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604791512624369907, guid: f01c6f6823f094e4ea3d9ab0c846deef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.84597
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 7604791512624369907, guid: f01c6f6823f094e4ea3d9ab0c846deef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: -3.09
       objectReference: {fileID: 0}
     - target: {fileID: 7604791512624369907, guid: f01c6f6823f094e4ea3d9ab0c846deef, type: 3}
       propertyPath: m_LocalPosition.z

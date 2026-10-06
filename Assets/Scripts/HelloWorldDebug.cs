@@ -1,6 +1,6 @@
 using UnityEngine;
 //this script is for a debug log statement 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class HelloWorldDebug : MonoBehaviour
 {
     void Start()
     {
