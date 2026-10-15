@@ -370,6 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransformTranslate
   movementSpeed: 0
+  rotationSpeed: 0
 --- !u!1 &1364507571
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb90f690ed2794d41b00f3336f5fd5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransformTranslate
-  movementSpeed: 0
+  movementSpeed: 5
+  rotationSpeed: 50
 --- !u!114 &1868129289
 MonoBehaviour:
   m_ObjectHideFlags: 0

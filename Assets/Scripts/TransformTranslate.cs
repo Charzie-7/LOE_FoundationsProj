@@ -5,7 +5,8 @@ public class TransformTranslate : MonoBehaviour
 
 
 
-    public float movementSpeed = 10.0f; 
+    public float movementSpeed = 10f; 
+    public float rotationSpeed = 100f;
     void Start()
     {
      
@@ -64,12 +65,12 @@ public class TransformTranslate : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Q))
         {
-            transform.Rotate(transform.up * movementSpeed * Time.deltaTime);
+            transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
            
         }
         if (Input.GetKey(KeyCode.E))
         {
-            transform.Rotate((-1)*transform.up * movementSpeed * Time.deltaTime);
+            transform.Rotate((-1)*transform.up * rotationSpeed * Time.deltaTime);
         }
 
     }
