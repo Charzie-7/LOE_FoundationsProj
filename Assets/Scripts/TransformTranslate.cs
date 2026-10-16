@@ -16,6 +16,7 @@ public class TransformTranslate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Cursor.lockState = CursorLockMode.Locked;
             /* if (Input.GetKeyDown(KeyCode.S))
         {
             transform.Translate(0,0,10);
@@ -68,20 +69,13 @@ public class TransformTranslate : MonoBehaviour
            
         }
 
-        if (Input.GetKey(KeyCode.E))
+
+        if (Input.GetAxis("Mouse X") < 0)
         {
             transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
-           
         }
 
-        /*if (Input.GetAxis("Mouse X") < 0)
-        {
-            transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
-        }*/
-
-
-
-        if (Input.GetKey(KeyCode.Q))
+         if (Input.GetAxis("Mouse X") > 0)
         {
             transform.Rotate((-1)*transform.up * rotationSpeed * Time.deltaTime);
         }
