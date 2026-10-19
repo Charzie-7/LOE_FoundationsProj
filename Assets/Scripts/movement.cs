@@ -3,7 +3,7 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     
-   
+   //https://novusxdev.medium.com/day-04-transform-translate-vs-rigidbody-1697f6a0d1a1
     public float rotationSpeed;
     Vector2 _movement;
     Rigidbody _rb;
