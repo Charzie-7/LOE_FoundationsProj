@@ -684,7 +684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstPersonCameraMovement
   playerObj: {fileID: 1046876609}
-  mouseSensitivity: 1
+  mouseSensitivity: 2
 --- !u!1 &1046876603
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstPersonCameraMovement
   playerObj: {fileID: 0}
-  mouseSensitivity: 2
+  mouseSensitivity: 3
 --- !u!1 &1274466552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8240625064304213907, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
