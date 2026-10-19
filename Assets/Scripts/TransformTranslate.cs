@@ -5,8 +5,8 @@ public class TransformTranslate : MonoBehaviour
 
 
 
-    public float movementSpeed = 10f; 
-    public float rotationSpeed = 100f;
+    public float movementSpeed ; 
+    public float rotationSpeed;
     void Start()
     {
      

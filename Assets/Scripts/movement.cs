@@ -19,14 +19,18 @@ public class movement : MonoBehaviour
     void Update()
     {
 
-        _movement = new Vector3(Input.GetAxisRaw("HorizontalX"), Input.GetAxisRaw("HorizontalY"));
+        _movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-    
+       
     }
         void FixedUpdate()
     {
-        _rb.MovePosition(_rb.position + (Vector3)_movement * movementSpeed * Time.fixedDeltaTime);
+        _rb.MovePosition(_rb.position + new Vector3(_movement.x, 0f, _movement.y) * movementSpeed * Time.fixedDeltaTime);
+    
+    
     }
+
+
 }
 
 
