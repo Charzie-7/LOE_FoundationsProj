@@ -840,9 +840,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 1
 --- !u!114 &1046876611
 MonoBehaviour:
@@ -879,11 +879,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.22241324, y: 3.0000007, z: 2.3040001}
-  m_Center: {x: 0.09270856, y: 0.00000022736685, z: 1.1520001}
+  m_Size: {x: 0.33527544, y: 3.0000007, z: 2.3040001}
+  m_Center: {x: 0.036277458, y: 0.00000023409396, z: 1.1520001}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
