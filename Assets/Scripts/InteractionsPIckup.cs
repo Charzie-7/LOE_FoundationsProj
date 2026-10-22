@@ -3,21 +3,29 @@ using UnityEngine;
 public class InteractionsPIckup : MonoBehaviour
 {
     
-    void Start()
-    {
-        
-    }
+    
+    public GameObject clickObjToDestroy;
 
-    // Update is called once per frame
+    void OnMouseDown()
+    {
+    Destroy(clickObjToDestroy);
+    Destroy(clickObjToDestroy);
+    Destroy(clickObjToDestroy);
+    }
     void Update()
     {
         int Count = 0;
 
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
-            GameObject.Destroy(gameObject);
+            Destroy(clickObjToDestroy);
             Count = Count + 1;
-        }
+            Destroy(clickObjToDestroy);
+            Count = Count + 1;
+            Destroy(clickObjToDestroy);
+            Count = Count + 1;
+            
+        }*/
 
         if (Count == 1)
         {
