@@ -18,10 +18,9 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        _movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
-
-       
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        Vector3 right = transform.TransformDirection(Vector3.right);
+        _movement = forward * Input.GetAxisRaw("Vertical") + right * Input.GetAxisRaw("Horizontal");
     }
         void FixedUpdate()
     {

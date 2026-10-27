@@ -7,12 +7,8 @@ public class ClickToDestroy : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log("Object was clicked");
         Destroy(clickObjToDestroy);
-        Debug.Log("Object was clicked");
-        Destroy(clickObjToDestroy);
-        Debug.Log("Object was clicked");
-        Destroy(clickObjToDestroy);
+      
 
 
       
