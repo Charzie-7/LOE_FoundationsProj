@@ -6,14 +6,13 @@ public class ItemsCollected : MonoBehaviour
     public GameObject treebush2;
     public GameObject bushtree3;
     public GameObject bushtree4;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-// object name. set active =("false") to make it disappear.
+
 
     public int partsCollected = 0;
     public void CollectedItem()
     {
-        partsCollected++;
+        partsCollected++;// this will add 1 to the parts collected when the item is clicked on to keep collected
         Debug.Log("Parts collected: " + partsCollected);
     }
     void Start()
@@ -25,9 +24,9 @@ public class ItemsCollected : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(partsCollected == 2)
+        if(partsCollected == 2) 
     {
-        treebush1.SetActive(true);
+        treebush1.SetActive(true);// this will make the object appear when the parts collected is equal to 2
     
     }
         if(partsCollected == 4)

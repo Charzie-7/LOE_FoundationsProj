@@ -16,8 +16,8 @@ public class FirstPersonCameraMovement : MonoBehaviour
          Cursor.lockState = CursorLockMode.Locked;
 
         // the mouse inputs 
-        float inputX = Input.GetAxis("Mouse X") * mouseSensitivity;
-        float inputY = Input.GetAxis("Mouse Y") * mouseSensitivity;
+        float inputX = Input.GetAxis("Mouse X") * mouseSensitivity;// mouse horizontal rotation
+        float inputY = Input.GetAxis("Mouse Y") * mouseSensitivity;// mouse vertical rotation
 
 
         //mouse vertical rotation

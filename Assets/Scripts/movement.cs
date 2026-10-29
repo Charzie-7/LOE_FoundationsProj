@@ -18,13 +18,13 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        Vector3 forward = transform.TransformDirection(Vector3.forward);// this allows the movement of the character to be consitent and does not flip he controls
         Vector3 right = transform.TransformDirection(Vector3.right);
         _movement = forward * Input.GetAxisRaw("Vertical") + right * Input.GetAxisRaw("Horizontal");
     }
         void FixedUpdate()
     {
-        _rb.MovePosition(_rb.position + new Vector3(_movement.x, 0f, _movement.z) * movementSpeed * Time.fixedDeltaTime);
+        _rb.MovePosition(_rb.position + new Vector3(_movement.x, 0f, _movement.z) * movementSpeed * Time.fixedDeltaTime);// allows the character to move
     
     
     }

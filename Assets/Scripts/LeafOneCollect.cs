@@ -13,7 +13,7 @@ public class LeafOneCollect : MonoBehaviour
     }
     void OnMouseDown()
     {
-    Destroy(clickObjToDestroy);
+    Destroy(clickObjToDestroy);// the item will disappear when clicked on
     CollectedItem();
     }
    
