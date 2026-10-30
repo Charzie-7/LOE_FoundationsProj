@@ -6,6 +6,7 @@ public class ItemsCollected : MonoBehaviour
     public GameObject treebush2;
     public GameObject bushtree3;
     public GameObject bushtree4;
+    public GameObject treebush5;
 
 
 
@@ -42,6 +43,11 @@ public class ItemsCollected : MonoBehaviour
     if(partsCollected == 6)
     {
         bushtree4.SetActive(true);
+        
+    }
+    if(partsCollected == 7)
+    {
+        treebush5.SetActive(true);
         
     }
 }

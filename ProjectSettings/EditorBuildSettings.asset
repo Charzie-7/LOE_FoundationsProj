@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MyProjectsScene/StartScreen.unity
     guid: e254a30bfdf38fc408dbddedf3705d22
+  - enabled: 1
+    path: Assets/Scenes/MyProjectsScene/MainSceneGarden.unity
+    guid: e52d864857cde7041b056bc543c6ff79
+  - enabled: 1
+    path: Assets/Scenes/MyProjectsScene/PauseScreen.unity
+    guid: d28830ca791064346b7700a470b1c8d2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
