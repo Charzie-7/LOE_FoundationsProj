@@ -5,18 +5,14 @@ public class FirstPersonCameraMovement : MonoBehaviour
    public Transform playerObj;
    public float mouseSensitivity = 2f;
    float cmaeraverticalRotation = 0f;
-       void Start()
-    {
-     
-    }
-
+   
     // Update is called once per frame
-    void Update()
+    public void playerlook()
     {
          Cursor.lockState = CursorLockMode.Locked;
+         //FirstPersonCameraMovement.enable = true;
 
-        //  Cursor.lockState = CursorLockMode.Confined;
-        //  Cursor.visible = true;
+       
 
         // the mouse inputs 
         float inputX = Input.GetAxis("Mouse X") * mouseSensitivity;// mouse horizontal rotation
