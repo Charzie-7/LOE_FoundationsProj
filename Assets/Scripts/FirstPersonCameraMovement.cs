@@ -5,9 +5,9 @@ public class FirstPersonCameraMovement : MonoBehaviour
    public Transform playerObj;
    public float mouseSensitivity = 2f;
    float cmaeraverticalRotation = 0f;
-   
+   //https://docs.unity.com/en-us/engine/6000.6/script-reference/unityengine/cursorlockmode/locked
     // Update is called once per frame
-    public void playerlook()
+    public void Update ()
     {
          Cursor.lockState = CursorLockMode.Locked;
          //FirstPersonCameraMovement.enable = true;

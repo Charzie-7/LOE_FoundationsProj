@@ -10,8 +10,8 @@ public GameObject PausePanel;
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Disable();
-            Time.timeScale = 0;
+            //Disable();
+            //Time.timeScale = 0;
             PausePanel.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;

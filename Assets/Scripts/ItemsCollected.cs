@@ -8,6 +8,13 @@ public class ItemsCollected : MonoBehaviour
     public GameObject bushtree4;
     public GameObject treebush5;
 
+    public GameObject Tick1;
+    public GameObject Tick2;
+    public GameObject Tick3;
+    public GameObject Tick4;
+    public GameObject Tick5;
+    public GameObject Tick6;
+    public GameObject Tick7;
 
 
     public int partsCollected = 0;
@@ -25,30 +32,44 @@ public class ItemsCollected : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(partsCollected==1)
+    {
+        Tick1.SetActive(true);
+    }
+
         if(partsCollected == 2) 
     {
         treebush1.SetActive(true);// this will make the object appear when the parts collected is equal to 2
-    
+        Tick2.SetActive(true);
     }
+
+        if(partsCollected == 3)
+    {
+        Tick3.SetActive(true);
+    }
+
         if(partsCollected == 4)
     {
         treebush2.SetActive(true);
+        Tick4.SetActive(true);
     
     }
     if(partsCollected == 5)
     {
         bushtree3.SetActive(true);
+        Tick5.SetActive(true);
         
     }
     if(partsCollected == 6)
     {
         bushtree4.SetActive(true);
+        Tick6.SetActive(true);
         
     }
     if(partsCollected == 7)
     {
         treebush5.SetActive(true);
-        
+        Tick7.SetActive(true);
     }
 }
 }
