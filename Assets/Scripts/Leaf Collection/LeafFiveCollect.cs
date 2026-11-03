@@ -14,7 +14,7 @@ public class LeafFiveCollect : MonoBehaviour
     {
     Destroy(clickObjToDestroy);
     CollectedItem();
-    Debug.Log("hi");
+    
     }
    
     void Update()

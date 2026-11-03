@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ItemsCollected : MonoBehaviour
 {
+
+    //defining all the game objects that will be used to show the parts collected and the objects that will appear when the parts are collected
     public GameObject treebush1;
     public GameObject treebush2;
     public GameObject bushtree3;

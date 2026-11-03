@@ -2,16 +2,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class EsapeButton : MonoBehaviour
 {
-public EnableAndDisable Disable;
-public GameObject playerObj;
+
+    //https://learn.unity.com/tutorial/enabling-and-disabling-components
+public FirstPersonCameraMovement FirstPersonCameraMovement;
 public GameObject PausePanel;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //Disable();
-            //Time.timeScale = 0;
+            FirstPersonCameraMovement.enabled = false;
+            Time.timeScale = 0;
             PausePanel.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
