@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ItemsCollected : MonoBehaviour
 {
 
@@ -72,6 +72,8 @@ public class ItemsCollected : MonoBehaviour
     {
         treebush5.SetActive(true);
         Tick7.SetActive(true);
+        SceneManager.LoadSceneAsync(4);// this will load the end scene when all the parts are collected
+
     }
 }
 }

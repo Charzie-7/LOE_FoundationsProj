@@ -16,7 +16,16 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadSceneAsync(3);
     }
     
+    public void quitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game has been quit");
+    }
 
+    public void EndGame()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
     
 }
 
