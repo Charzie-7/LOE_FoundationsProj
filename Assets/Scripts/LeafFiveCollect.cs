@@ -3,7 +3,7 @@ using UnityEngine;
 public class LeafFiveCollect : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-   public ItemsCollected itemsCollected;
+    public ItemsCollected itemsCollected;
     public GameObject clickObjToDestroy;
     public void CollectedItem()
     {
@@ -14,7 +14,6 @@ public class LeafFiveCollect : MonoBehaviour
     {
     Destroy(clickObjToDestroy);
     CollectedItem();
-    
     }
    
     void Update()
