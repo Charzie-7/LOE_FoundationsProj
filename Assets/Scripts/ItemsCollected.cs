@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 public class ItemsCollected : MonoBehaviour
 {
 
+    public FirstPersonCameraMovement FirstPersonCameraMovement;
+
     //defining all the game objects that will be used to show the parts collected and the objects that will appear when the parts are collected
     public GameObject treebush1;
     public GameObject treebush2;
@@ -72,8 +74,12 @@ public class ItemsCollected : MonoBehaviour
     {
         treebush5.SetActive(true);
         Tick7.SetActive(true);
-        SceneManager.LoadSceneAsync(4);// this will load the end scene when all the parts are collected
-
+        FirstPersonCameraMovement.enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        Time.timeScale = 0;
+        SceneManager.LoadSceneAsync(3);// this will load the end scene when all the parts are collected
+        //cursor.visible = true;
     }
 }
 }

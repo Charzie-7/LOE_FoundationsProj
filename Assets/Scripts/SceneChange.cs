@@ -5,15 +5,15 @@ public class SceneChange : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void playGame()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
     }
     public void playIntro()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(0);
     }
     public void mainMenu()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(2);
     }
     
     public void quitGame()
@@ -24,7 +24,8 @@ public class SceneChange : MonoBehaviour
 
     public void EndGame()
     {
-        SceneManager.LoadSceneAsync(4);
+        
+        SceneManager.LoadSceneAsync(3);
     }
     
 }
