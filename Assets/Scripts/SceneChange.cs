@@ -6,6 +6,7 @@ public class SceneChange : MonoBehaviour
     public void playGame()
     {
         SceneManager.LoadSceneAsync(1);
+        Time.timeScale = 1f;
     }
     public void playIntro()
     {
