@@ -515,6 +515,18 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -7187437352152956164, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4608169158577370498, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2108128781442499609, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1592621781203033459, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.2
@@ -542,6 +554,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
       propertyPath: m_Name
       value: MyProjectScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958691256655317597, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760650993258613269, guid: 29500a3b6d045d24886c09b701637cb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MyProjectsScene/End.unity
     guid: 65962fda1f0550940a491406c95e919b
+  - enabled: 1
+    path: Assets/Scenes/MyProjectsScene/ScreatEnding.unity
+    guid: a289199ae0f51ea41a59a5193e878418
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
